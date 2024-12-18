@@ -1,0 +1,96 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px; /* Add some padding to the left */
+    padding-right: 20px; /* Add some padding to the right */
+}
+
+/* Header Styling */
+.header img {
+    width: 35%;
+    height: auto;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centering the logo */
+    margin-bottom: 20px; /* Add margin to create gap between logo and navbar */
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #a94064;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;  /* Add margin to the left */
+    margin-right: 20px; /* Add margin to the right */
+    border-radius: 5px;  /* Optional: To give a rounded effect to the navbar */
+}
+
+.navbar a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #bf5a7a;
+    color: #fff;
+}
+
+.navbar a.active {
+    background-color: #8a2d4f;
+    color: white;
+    border-radius: 4px;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #a94064;
+    color: white;
+}
+
+table tbody tr:hover {
+    background-color: #f4f4f4;
+    transition: background-color 0.2s;
+}
+
+/* Button Styling */
+button {
+    background-color: #a94064;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-left: 20px; /* Add left margin to buttons */
+    margin-right: 20px; /* Add right margin to buttons */
+}
+
+button:hover {
+    background-color: #bf5a7a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
