@@ -13,7 +13,7 @@ debugpy==1.5.1  # Compatible version for debugging
 decorator==5.1.1  # Last stable version
 executing==2.0.1
 Flask==2.2.2  # Most recent stable version under 3.x for compatibility
-Flask-Cors==3.1.1  # Stable and compatible version
+Flask-Cors==2.1.3  # Stable and compatible version
 flatbuffers==22.12.0  # Last stable release
 fonttools==4.34.4  # Compatible version
 ipykernel==6.9.0  # Compatible version with Jupyter
